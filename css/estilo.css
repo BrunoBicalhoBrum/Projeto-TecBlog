@@ -23,6 +23,19 @@ h1 {
     font-size: 2.5em;
 }
 
+h2 {
+    color:blueviolet;
+}
+
+h3 {
+    color:rgb(255, 255, 255);
+    background-color: #300036;
+    padding: 10PX;
+    border-radius: 10PX;
+}
+
+
+
 .branco {
     color: #fff;
     background-color:rgb(31, 31, 31);
@@ -39,12 +52,30 @@ h1 {
 
 a{text-decoration: none;}
 
-a:link, a:visited {
+a:link, 
+a:visited {
     color:#fff;
+    background-color: blueviolet;
     padding: 8px 12px;
+    margin: 0px;
+    border-radius: 10px ;
 }
 
 a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #300036;
+    border-radius: 20px;
+}
+
+#area-cabecalho a:link, 
+#area-cabecalho a:visited {
+    color:#fff;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+
+#area-cabecalho a:hover {
     color: blueviolet;
     background-color: #fff;
     border-radius: 20px;
@@ -53,6 +84,53 @@ a:hover {
 /***LAYOUT PRINCIPAL***/
 
 #area-principal {
-    background-color: #fff;
     width: 920px;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+    position:static;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.conteudo-lateral {
+    background-color: rgb(237, 217, 255) ;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 10PX;
+    width: 70px 30px;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: blueviolet;
+}
+
+.texto-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+
 }
